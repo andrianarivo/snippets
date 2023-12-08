@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation'
+import {notFound} from 'next/navigation'
 import {db} from '@/db'
 import Link from 'next/link'
 import * as actions from '@/actions'
@@ -39,5 +39,14 @@ export default async function SnippetShowPage(props: SnippetShowPageProps) {
           {snippet.code}
         </pre>
       </div>
+  )
+}
+
+export async function generateStaticParams() {
+  const snippets = await db.snippet.findMany()
+
+  return snippets.map((snippet) => ({
+        id: `${snippet.id}`
+    })
   )
 }
