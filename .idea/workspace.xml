@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ffb3bce-6c83-40c8-98ea-77fe00389e13" name="Changes" comment="Error handling + Form State Hook">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b506ee48-b870-4a3e-8fe9-45d7a0337a2b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b506ee48-b870-4a3e-8fe9-45d7a0337a2b.xml" afterDir="false" />
+    <list default="true" id="9ffb3bce-6c83-40c8-98ea-77fe00389e13" name="Changes" comment="Update README">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/dev.db" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/dev.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +106,7 @@
       <workItem from="1701853737802" duration="15372000" />
       <workItem from="1702020667851" duration="73000" />
       <workItem from="1702020759993" duration="2940000" />
-      <workItem from="1704008031657" duration="1610000" />
+      <workItem from="1704008031657" duration="2186000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <option name="closed" value="true" />
@@ -144,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701875417054</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Deployment">
+      <option name="closed" value="true" />
+      <created>1704009802895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704009802895</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update README">
+      <option name="closed" value="true" />
+      <created>1704009821565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704009821565</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +167,8 @@
     <MESSAGE value="Database setup" />
     <MESSAGE value="Server Components/Client Components + Server actions + CRUD" />
     <MESSAGE value="Error handling + Form State Hook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error handling + Form State Hook" />
+    <MESSAGE value="Deployment" />
+    <MESSAGE value="Update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
   </component>
 </project>
